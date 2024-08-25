@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  .head{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+  }
+ .Search-bar{
+  display: flex;
+  text-align: center;
+ }
+ .Search-bar input{
+  width: 800px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+ }
+ .Search-bar button{
+  border-radius: 10px;
+  padding-inline: 5px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  font-size: 20px;
+ }
+ i{
+  font-size: 50px;
+  margin-top: 10px;
+  color: aliceblue;
+ }
+ .logo-youtube{
+  font-size: 40px;
+  padding: 5px;
+  color: red;
+  margin-top: 10px;
+ }
+ button i{
+  font-size: 20px;
+  color: black;
+ }
+ button:hover
+ {
+  background-color: rgba(212, 230, 236, 0.078);
+  color: aliceblue;
+  padding-inline: 10px;
+ }
