@@ -65,3 +65,29 @@ button:hover {
   margin-left: 75px;
   margin-top: 20px;
 }
+/* MARK: footer */
+.footers {
+  border-top: 1px solid white;
+  margin-top: 10px;
+}
+.foot-side {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-side p {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.foot-side nav {
+  display: flex;
+  gap: -40px;
+}
+.foot-side nav i {
+  font-size: 30px;
+  margin-right: 70px;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
